@@ -13,23 +13,23 @@ class DemonsterGrailsPlugin extends Plugin {
 
     // TODO Fill in these fields
     def title = "Demonster" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Jason Schindler"
+    def authorEmail = "schindlerj@objectcomputing.com"
     def description = '''\
-Brief summary/description of the plugin.
+A demonstration of a Grails 4 Plugin
 '''
     def profiles = ['web']
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/demonster"
+    def documentation = "https://github.com/JasonTypesCodes/grails-plugin-demonster"
 
     // Extra (optional) plugin metadata
 
     // License: one of 'APACHE', 'GPL2', 'GPL3'
-//    def license = "APACHE"
+   def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
+   def organization = [ name: "Object Computing", url: "https://objectcomputing.com/" ]
 
     // Any additional developers beyond the author specified above.
 //    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
